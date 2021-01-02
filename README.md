@@ -2,4 +2,4 @@
 ---
 The projects contained herein
 1. *blockchainlogic* - Demonstration of the basic blockchain logic using sha256
- 
+2. *infura*  - Reads smart contract data from the Ethereum Blockchain using the infura API and web3 python module
