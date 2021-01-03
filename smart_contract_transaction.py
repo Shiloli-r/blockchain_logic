@@ -1,5 +1,6 @@
 """ The program interacts with a smart contract (written in solidity, on remix)
     A transaction is carried out through the smart contract
+    Smart Contract used: asset.sol
     Written 1/3/2021
 """
 import json
