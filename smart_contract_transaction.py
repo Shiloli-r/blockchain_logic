@@ -17,9 +17,8 @@ abi = json.loads('[{"inputs":[],"name":"asset_","outputs":[],"stateMutability":"
                  '{"inputs":[{"internalType":"uint256","name":"_price","type":"uint256"},{"internalType":"string",'
                  '"name":"_name","type":"string"}],"name":"setter","outputs":[],"stateMutability":"nonpayable",'
                  '"type":"function"}]')
-address = web3.toChecksumAddress("0xE5e2fe7d1e0F0a238d98760AA5cf4aD7ff069f13")
+address = web3.toChecksumAddress("0xa454A2C633c2824aBf2Bcec8BAb7533FD6455606")
 contract = web3.eth.contract(address=address, abi=abi)
-contract.functions.asset_().call()
 print("\nASSET: \n", contract.functions.display().call())
 
 # Transaction

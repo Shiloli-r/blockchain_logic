@@ -5,10 +5,10 @@ contract Asset{
     uint price;
     string name;
 
-    function asset_() public {
+     constructor()  {
         price = 5000;
         name = "computer";
-    }
+     }
 
     function setter(uint _price, string memory _name) public{
         price = _price;
